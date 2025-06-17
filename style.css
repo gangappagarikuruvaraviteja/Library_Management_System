@@ -1,0 +1,48 @@
+body {
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-image: url(book.jpg);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(99, 207, 219);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #303f9f;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 2px solid #ccc;
+    text-align: left;
+}
